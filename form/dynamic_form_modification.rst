@@ -451,7 +451,7 @@ The type would now look like::
                 ->add('sport', EntityType::class, [
                     'class'       => 'App\Entity\Sport',
                     'placeholder' => '',
-                ]);
+                ])
             ;
 
             $formModifier = function (FormInterface $form, Sport $sport = null) {
